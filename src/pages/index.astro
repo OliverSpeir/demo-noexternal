@@ -1,0 +1,10 @@
+---
+export const prerender = false;
+import { randomNumber } from "pure-random-number";
+---
+
+<html lang="en">
+  <body>
+    <h1>{await randomNumber(1, 100)}</h1>
+  </body>
+</html>
